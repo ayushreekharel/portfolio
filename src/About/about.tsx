@@ -41,7 +41,7 @@ export function About() {
       <div className="md:w-1/2 flex justify-center items-center">
         <div className="relative">
           <img
-            src="/profile.png"
+            src={`${import.meta.env.BASE_URL}profile.png`}
             alt="Ayushree"
             className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-pink-500 shadow-lg"
           />
